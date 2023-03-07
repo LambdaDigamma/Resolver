@@ -2,7 +2,7 @@
 
 An ultralight Dependency Injection / Service Locator framework for Swift 5.x on iOS.
 
-**Note that several recent updates to Resolver may break earlier code that used [argument passing](./Documentation/Arguments.md#multiple) and/or [named services](./Documentation/Names.md). For more see the [Updates](#updates) section below.**
+**Note: Later in 2023 Resolver will be deprecated and replaced by my new dependency injection system, [Factory](https://github.com/hmlongco/Factory). Factory 2.0 is a true container-based dependency injection system that's compile-time safe and is smaller, lighter, and faster than Resolver. As good as Resolver is, Factory is better.**
 
 ## Introduction
 
@@ -117,14 +117,21 @@ It's possible that recent updates to Resolver could cause breaking changes in yo
 
 * Resolver 1.5 updated several of the registration and caching mechanisms used within Resolver. This one probably isn't an issue unless you wrote something that depended upon Resolver's internal behavior.
 
+## Sponsor Resolver
+
+If you want to support my work on Factory and Resolver, consider a [GitHub Sponsorship](https://github.com/sponsors/hmlongco)! Many levels exist for increased support and even for mentorship and company training. 
+
+Or you can just buy me a cup of coffee!
+
 ## Author
 
-Resolver was designed, implemented, documented, and maintained by [Michael Long](https://www.linkedin.com/in/hmlong/), a Senior Lead iOS engineer at [CRi Solutions](https://www.clientresourcesinc.com/solutions/). CRi is a leader in developing cutting edge iOS, Android, and mobile web applications and solutions for our corporate and financial clients.
+Resolver is designed, implemented, documented, and maintained by [Michael Long](https://www.linkedin.com/in/hmlong/), a Lead iOS Software Engineer and a Top 1,000 Technology Writer on Medium.
 
-* Email: [mlong@clientresourcesinc.com](mailto:mlong@clientresourcesinc.com)
+* LinkedIn: [@hmlong](https://www.linkedin.com/in/hmlong/)
+* Medium: [@michaellong](https://medium.com/@michaellong)
 * Twitter: @hmlco
 
-He was also one of Google's [Open Source Peer Reward](https://opensource.googleblog.com/2021/09/announcing-latest-open-source-peer-bonus-winners.html) winners in 2021 for his work on Resolver.
+Michael was also one of Google's [Open Source Peer Reward](https://opensource.googleblog.com/2021/09/announcing-latest-open-source-peer-bonus-winners.html) winners in 2021 for his work on Resolver.
 
 ## License
 
@@ -132,6 +139,7 @@ Resolver is available under the MIT license. See the LICENSE file for more info.
 
 ## Additional Resouces
 
+* [Factory: A Swift Dependency Injection System](https://github.com/hmlongco/Factory)
 * [Resolver for iOS Dependency Injection: Getting Started | Ray Wenderlich](https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started)
 * [API Documentation](./Documentation/API/Classes/Resolver.html)
 * [Inversion of Control Design Pattern ~ Wikipedia](https://en.wikipedia.org/wiki/Inversion_of_control)
@@ -140,5 +148,5 @@ Resolver is available under the MIT license. See the LICENSE file for more info.
 * [Dependency Injection in Swift](https://cocoacasts.com/dependency-injection-in-swift)
 * [SwinjectStoryboard](https://github.com/Swinject/SwinjectStoryboard)
 * [Swift 5.1 Takes Dependency Injection to the Next Level](https://medium.com/better-programming/taking-swift-dependency-injection-to-the-next-level-b71114c6a9c6)
-* [Builder Demo Application](https://github.com/hmlongco/Builder)
+* [Builder Demo Application](https://github.com/hmlongco/Builder)[ (Now uses Factory)](https://github.com/hmlongco/Factory)
 
